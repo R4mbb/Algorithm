@@ -12,6 +12,10 @@ while (start <= end):
     total = 0
     mid = (start + end) // 2
 
+    print(start, end)
+    print(total)
+    print(result)
+
     for x in array:
         if x > mid:
             total += x - mid
